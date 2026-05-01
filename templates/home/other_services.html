@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Other Services — Leo Service Hub{% endblock %}
+
+{% block content %}
+<section class="section" style="padding-top:8rem; min-height:80vh;">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow">Other Services</span>
+      <h2 class="section-title">More <span class="gold">Services</span></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="services-grid" style="margin-top:3rem;">
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 8v4l3 3"/>
+          </svg>
+        </div>
+        <h3>Car Diagnosis</h3>
+        <p>Full vehicle diagnostic checks using professional equipment to identify faults and performance issues quickly and accurately.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="7" width="20" height="14" rx="2"/>
+            <path d="M16 7V5a2 2 0 0 0-4 0v2"/>
+            <line x1="12" y1="12" x2="12" y2="16"/>
+          </svg>
+        </div>
+        <h3>Car Scan Services</h3>
+        <p>Advanced OBD scanning to read and clear fault codes, inspect engine health, and provide a detailed report of your vehicle's condition.</p>
+      </div>
+
+    </div>
+    <div style="text-align:center; margin-top:3rem;">
+      <a href="/#contact" class="btn-primary">Get in Touch</a>
+    </div>
+  </div>
+</section>
+{% endblock %}
